@@ -20,7 +20,7 @@ html {
 
 .header-sidedar {
     font-size: 1.5rem;
-    width: 12%;
+    width: 15%;
     display: flex;
     align-items: center;
     padding-left: 0.8rem;
@@ -33,7 +33,7 @@ html {
     border: none;
     cursor: pointer;
     height: 100%;
-    width: 83%;
+    width: 80%;
 
 }
 

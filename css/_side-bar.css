@@ -1,13 +1,11 @@
 .sidebar {
-  background-color: #f8f9fb;
+  background-color: #e2ebfd;
   color: rgb(84, 84, 100);
   width: 15%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   gap: 0.5rem;
   font-size: 1.5rem;
-  font-weight: bold;
   padding: 1rem;
 }
 .sidebar-top-item {

@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div>
       <div class="header">
         <div class="header-sidedar">Company name</div>
         <div class="header-search">
@@ -18,82 +17,113 @@
           <button>sign out</button>
         </div>
       </div>
-      <div>
-        <div class="sidebar">
-          <div class="sidebar-top">
-            <ol>
-              <li class="sidebar-top-item">
-                <div>
-                  <img src="/dashboard/icons/Home - 1.svg" alt="" />
-                </div>
-                <div>Dashboard</div>
-              </li>
-              <li class="sidebar-top-item">
-                <div>
-                  <img src="/dashboard/icons/Paper Negative.svg" alt="" />
-                </div>
-                <div>Orders</div>
-              </li>
-              <li class="sidebar-top-item">
-                <div>
-                  <img src="/dashboard/icons/Buy.svg" alt="" />
-                </div>
-                <div>Products</div>
-              </li>
-              <li class="sidebar-top-item">
-                <div>
-                  <img src="/dashboard/icons/2 User.svg" alt="" />
-                </div>
-                <div>Customers</div>
-              </li>
-              <li class="sidebar-top-item">
-                <div>
-                  <img src="/dashboard/icons/Chart.svg" alt="" />
-                </div>
-                <div>Reports</div>
-              </li>
-              <li class="sidebar-top-item">
-                <div>
-                  <img src="/dashboard/icons/Folder 2.svg" alt="" />
-                </div>
-                <div>Integrations</div>
-              </li>
-            </ol>
+      <div class="contaner">
+          <div class="sidebar">
+            <div class="sidebar-top">
+              <ol>
+                <li class="sidebar-top-item">
+                  <div>
+                    <img src="icons/Home - 1.svg" alt="" />
+                  </div>
+                  <div>Dashboard</div>
+                </li>
+                <li class="sidebar-top-item">
+                  <div>
+                    <img src="icons/Paper Negative.svg" alt="" />
+                  </div>
+                  <div>Orders</div>
+                </li>
+                <li class="sidebar-top-item">
+                  <div>
+                    <img src="icons/Buy.svg" alt="" />
+                  </div>
+                  <div>Products</div>
+                </li>
+                <li class="sidebar-top-item">
+                  <div>
+                    <img src="icons/2 User.svg" alt="" />
+                  </div>
+                  <div>Customers</div>
+                </li>
+                <li class="sidebar-top-item">
+                  <div>
+                    <img src="icons/Chart.svg" alt="" />
+                  </div>
+                  <div>Reports</div>
+                </li>
+                <li class="sidebar-top-item">
+                  <div>
+                    <img src="icons/Folder 2.svg" alt="" />
+                  </div>
+                  <div>Integrations</div>
+                </li>
+              </ol>
+            </div>
+            <div class="side-bar-bottom">
+              <ol>
+                <li class="sidebar-bottom-title-item">
+                  <div>SAVED REPORTS</div>
+                  <div>
+                    <img src="icons/Plus.svg" alt="" />
+                  </div>
+                </li>
+                <li class="sidebar-bottom-item">
+                  <div>
+                    <img src="icons/Paper.svg" alt="" />
+                  </div>
+                  <div>Current month</div>
+                </li>
+                <li class="sidebar-bottom-item">
+                  <div>
+                    <img src="icons/Paper.svg" alt="" />
+                  </div>
+                  <div>Last quarter</div>
+                </li>
+                <li class="sidebar-bottom-item">
+                  <div>
+                    <img src="icons/Paper.svg" alt="" />
+                  </div>
+                  <div>Social engagement</div>
+                </li>
+                <li class="sidebar-bottom-item">
+                  <div>
+                    <img src="icons/Paper.svg" alt="" />
+                  </div>
+                  <div>Year-end sale</div>
+                </li>
+              </ol>
+            </div>
           </div>
-          <div class="side-bar-bottom">
-            <ol>
-              <li class="sidebar-bottom-title-item">
-                <div>SAVED REPORTS</div>
-                <div>
-                  <img src="/dashboard/icons/Plus.svg" alt="" />
-                </div>
-              </li>
-              <li class="sidebar-bottom-item">
-                <div>
-                  <img src="/dashboard/icons/Paper.svg" alt="" />
-                </div>
-                <div>Current month</div>
-              </li>
-              <li class="sidebar-bottom-item">
-                <div>
-                  <img src="/dashboard/icons/Paper.svg" alt="" />
-                </div>
-                <div>Last quarter</div>
-              </li>
-              <li class="sidebar-bottom-item">
-                <div>
-                  <img src="/dashboard/icons/Paper.svg" alt="" />
-                </div>
-                <div>Social engagement</div>
-              </li>
-              <li class="sidebar-bottom-item">
-                <div>
-                  <img src="/dashboard/icons/Paper.svg" alt="" />
-                </div>
-                <div>Year-end sale</div>
-              </li>
-            </ol>
-          </div>
+        <div class="mainpanel">
+          <header class="mainpanel-header">
+            <h2 class="header-title">Orders</h2>
+            <div class="header-btn">
+              <button class="btn share-btn">Share</button>
+              <button class="btn export-btn">Export</button>
+              <div class="btn select-btn">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-calendar"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"
+                  />
+                </svg>
+    
+                <select id="select">
+                  <option value="week">This Week</option>
+                  <option value="month">This Month</option>
+                  <option value="year">This Year</option>
+                </select>
+              </div>
+            </div>
+          </header>
+          <hr class="line" />
+          <section class="mainpanel-body"></section>
         </div>
       </div>
     </div>

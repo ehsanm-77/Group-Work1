@@ -1,3 +1,9 @@
 @import url(./_header.css);
 @import url(./_side-bar.css);
 @import url(./_reset.css);
+@import url(./_main_panel.css);
+
+.contaner {
+  display: flex;
+  justify-content: space-around;
+}

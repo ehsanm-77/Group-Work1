@@ -1,3 +1,7 @@
+.mainpanel {
+  width: 85%;
+}
+
 .mainpanel-header {
   justify-self: center;
   align-self: center;

@@ -2,6 +2,7 @@
 @import url(./_side-bar.css);
 @import url(./_reset.css);
 @import url(./_main_panel.css);
+@import url(./_tableCss.css);
 
 .contaner {
   display: flex;
